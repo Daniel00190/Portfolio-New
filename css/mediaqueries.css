@@ -12,12 +12,12 @@
 
 
 
-@media(min-width: 64em){
+@media(min-width: 60em){
     .corner-img {
         display: none;
     }
 }
-@media(max-width: 64em){
+@media(max-width: 60em){
     .dev-img img, .dialog-box{
         display: none;
     }
@@ -28,9 +28,14 @@
      */
     
     .home-section{
-       margin: auto ;
-       align-items: flex-start;
-       padding: 8vh 0 0 0;
+        align-items: flex-start;
+        padding: 8vh 0 0 0;
+    }
+    
+    .home-text{
+        width: 30rem;
+        margin: 0 0 0 10vw;
+
     }
     .home-section p, .greeting {
         font-size: 3.5vh !important; 

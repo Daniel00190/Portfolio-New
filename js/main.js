@@ -13,6 +13,16 @@ hamburger.addEventListener("click", function () {
    }
 });
 
+const linksA = document.querySelectorAll(".navbar a")
+linksA.forEach(link => {
+   link.addEventListener("click",()=>{
+      hamburger.classList.remove("is-active")
+      menu.classList.toggle("slide")
+   })
+
+})
+
+
  
 const light = document.querySelector(".light")
 
