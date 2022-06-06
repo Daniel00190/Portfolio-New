@@ -9,8 +9,12 @@
 }
 html {
    scroll-behavior: smooth;
+}
+
+body{
    overflow-X: hidden;
- }
+   
+}
 
 
 a{
@@ -388,10 +392,12 @@ section {
 /*SKILLS PAGE---------------*/
 .skills-page{
    min-height: 100vh;
+   max-width: 100vw;
    position: relative;
    display: flex;
    align-items: center;
    background-color: var(--clr-secondary);
+   overflow-x: hidden;
 }
 
 /* .skills-page .corner-img{
@@ -481,6 +487,7 @@ section {
    display: flex;
    flex-wrap: wrap;
    padding-top: 5rem;
+   overflow-x: hidden;
 }
 .portfolio-page h1{
    transform: perspective(700px) rotateY(40deg);
@@ -490,6 +497,7 @@ section {
    /* z-index: 1; */
    top: 15rem;
    left: 5rem;
+
 }
 
 .card-container{
