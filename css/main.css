@@ -275,6 +275,8 @@ section {
    font-size: 1.5rem;
    font-family: "Open Sans", sans-serif;
    /* padding: 1rem 0; */
+   animation: home-text .6s ease-out;
+
 }
 
 .social-media {
