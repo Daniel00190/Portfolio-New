@@ -150,7 +150,7 @@ nav a:hover {
    left: -8.5rem;
    height: 90vh;
    padding: 10rem;   
-   box-shadow: inset 20px 80px 280px rgba(255, 255, 247, 0.39);
+   box-shadow: inset 20px 80px 280px rgba(255, 255, 247, 0.651);
    clip-path: polygon(50% -10px, 100% 100%, 0% 100%);
 }
 .bulb img{
@@ -594,7 +594,7 @@ section {
    min-height: 100vh;
    position: relative;
    background-color: var(--clr-secondary);
-   padding: 5rem;
+   padding: 5vw;
    font-size: 2rem;
    color: var(--clr-secondary);
    display: flex;
@@ -620,7 +620,7 @@ section {
 }
 .about-page p{
    text-align: left;
-   font-size: clamp(1.2rem, 5vw, 1.8rem);
+   font-size: clamp(1.4rem, 3vw , 2.5rem);
    font-weight: 300;
    color:var(--clr-aux);
    line-height: 3rem;
@@ -633,7 +633,7 @@ section {
    font-size: 1.5rem;
    float: left;
    shape-outside: circle(50%);
-   margin-right: 2rem;
+   margin-right: 1vw;
 }
 
 
@@ -641,6 +641,11 @@ section {
  color: var(--clr-neutral);
  
  line-height: 3rem;
+}
+
+.email{
+   font-size: clamp(1.4rem, 3vw , 2.5rem);
+
 }
 
 
