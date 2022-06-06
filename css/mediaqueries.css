@@ -35,6 +35,9 @@
         font-size: 3.5vh !important; 
 
     }
+    .switch{
+        right: 1rem;
+    }
     
 }
 @media(max-width: 51.875em){

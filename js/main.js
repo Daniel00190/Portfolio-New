@@ -57,7 +57,7 @@ moon.addEventListener("click", function(){
       icon.style.color = "#EBE9E9"
    })
       
-   home.style.backgroundColor = colorsDarkMode[0]
+   homeSection.style.backgroundColor = colorsDarkMode[0]
    homeSection.style.color = "#EBE9E9"
    skillsCards.forEach(card =>{
       card.style.backgroundColor = colorsDarkMode[1]
@@ -96,7 +96,7 @@ sun.addEventListener("click", function(){
 
 
    logo.style.color = "#38add1"
-   home.style.backgroundColor = "white"
+   homeSection.style.backgroundColor = "white"
    homeSection.style.color = "#122C3F"
    socialMedia.forEach(icon => {
       icon.style.color = "#122C3F"
