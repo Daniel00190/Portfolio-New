@@ -87,7 +87,7 @@ header {
 
 .hamburger.is-active span:nth-child(2) {
    opacity: 0;
-   transform: translateX(-15px);
+   transform: translateX(15px);
    /* background-color: var(--clr-accent); */
 }
 
@@ -123,9 +123,11 @@ nav {
    color: var(--clr-accent);
 }
 .slide{
-   transform: translatex(100%);
+   transform: translatex(-100vw);
+   /* position: absolute; */
+   width: 0; 
+   
    visibility: hidden;
-    width: 0; 
 }
 
 
