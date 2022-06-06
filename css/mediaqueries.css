@@ -28,12 +28,12 @@
      */
     
     .home-section{
-       margin: auto;
+       margin: auto ;
        align-items: flex-start;
+       padding: 8vh 0 0 0;
     }
     .home-section p, .greeting {
         font-size: 3.5vh !important; 
-
     }
     .switch{
         right: 1rem;
@@ -79,7 +79,8 @@
         align-items: center;
     }
     .card-container .img{
-        max-width: 90%;
+        /* height: 0rem; */
+        aspect-ratio: inherit;
     }
     .description, .card-container img{
         left: 0;
@@ -109,5 +110,13 @@
              max-width: 30%;
          } */
  }
+/* 
+ @media(max-width: 32em){
+     .card-container{
+         background-color: red;
+         
+     }
+    
+ } */
 
 

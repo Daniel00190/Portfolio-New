@@ -192,7 +192,7 @@ nav a:hover {
 
 section {
    max-width: 100vw;
-   min-height: 95vh;
+   height: 92vh;
    margin: auto;
    display: flex;
    align-items: center;
@@ -203,8 +203,8 @@ section {
    color: var(--clr-aux);
    transition:  0.5s ease;
    z-index: 1;
-
 }
+
 
 
 
@@ -268,7 +268,7 @@ section {
 .greeting{
    font-size: 1.5rem;
    font-family: "Open Sans", sans-serif;
-   padding: 1rem 0;
+   /* padding: 1rem 0; */
 }
 
 .social-media {
@@ -506,8 +506,9 @@ section {
 
 .description{
    text-align: right;
-   min-height: 15rem;
-   max-width: 27rem;
+   height: 15rem;
+   width: min(30rem, 90vw);
+
    aspect-ratio: 2/1.2;
    position: relative;
    right:  2rem;
@@ -522,8 +523,7 @@ section {
    color: var(--clr-secondary);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
    padding: 2rem;
-   font-size: 1.2rem;
-   
+   font-size: min(1.2rem,3vw);
 }
 .title h2, .tags{
    color: var(--clr-aux);
@@ -548,8 +548,7 @@ section {
 }
 
 .card-container .img{
-   height: 18rem;
-   /* width: 90vw; */
+   width: min(30rem, 90vw);
    aspect-ratio: 2/1.2;
    /* left: 1rem; */
    background: linear-gradient(#0f252bc2, #156585ad), url("../images/fit-goal.png");
