@@ -37,9 +37,10 @@
         margin: 0 0 0 10vw;
 
     }
-    .home-section p, .greeting {
+    /* .home-section p,  */
+    /* .greeting {
         font-size: 3.5vh !important; 
-    }
+    } */
     .switch{
         right: 1rem;
     }
